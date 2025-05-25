@@ -5,7 +5,30 @@
     display: flex;
     gap: 22px;
 }
-.pr1 {
+.menu {
+    display: flex;
+    color: var(--Amber-900, #78350F);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 12px 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background: #FFFBEB;
+}
+header {
+    display: flex;
+    padding: 24px 80px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #FFFBEB;
+}
+.signupnow_button {
+    display: flex;
+    padding: 8px 12px;
     color: var(--Amber-900, #78350F);
     /* Button/M */
     font-family: Roboto;
@@ -14,11 +37,20 @@
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.5px;
-}
-header {
-    display: flex;
-    padding: 24px 80px;
-    justify-content: space-between;
     align-items: center;
-    align-self: stretch;
+    gap: 22px;
+    border-radius: 8px;
+    border: 2px solid var(--Amber-900, #78350F);
+    background: #FFFBEB;
+}
+.zag {
+    color: var(--Amber-900, #78350F);
+
+    /* Heading/5 */
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+    background: #FFFBEB;
 }

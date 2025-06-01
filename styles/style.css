@@ -1,11 +1,8 @@
-.title {
-    color: aqua;
-}
-.spisok {
+.nav__spisok_elementov {
     display: flex;
     gap: 22px;
 }
-.menu {
+.nav__element {
     display: flex;
     color: var(--Amber-900, #78350F);
     font-family: Roboto;
@@ -16,7 +13,7 @@
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    background: #FFFBEB;
+/*    background: #FFFBEB;*/
 }
 header {
     display: flex;
@@ -26,10 +23,11 @@ header {
     align-self: stretch;
     background: #FFFBEB;
 }
-.signupnow_button {
-    display: flex;
+body {
+    background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(360deg, #FFFBEB 0%, #FFF 89.63%));
+}
+.nav__element_border {
     padding: 8px 12px;
-    color: var(--Amber-900, #78350F);
     /* Button/M */
     font-family: Roboto;
     font-size: 16px;
@@ -41,22 +39,17 @@ header {
     gap: 22px;
     border-radius: 8px;
     border: 2px solid var(--Amber-900, #78350F);
-    background: #FFFBEB;
 }
-.zag {
+.nav__zagolovok {
     color: var(--Amber-900, #78350F);
-
-    /* Heading/5 */
     font-family: Roboto;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 110%; /* 35.2px */
-    background: #FFFBEB;
 }
-.products {
-    
-
+.nav__element_link {
+    text-decoration: none;
 }
 a {
   color: var(--Amber-900, #78350F);

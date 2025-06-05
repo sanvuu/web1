@@ -11,6 +11,7 @@ header {
 body {
     background: linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%);
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 a {
@@ -18,22 +19,22 @@ a {
 }
 
 .nav__spisok_elementov {
-    display: flex;
+    display: inline-block;
+    /*flex-direction: row;*/
     gap: 22px;
 }
 
 .nav__element {
-    display: flex;
+    display: inline-block;
     color: var(--Amber-900, #78350F);
     font-family: Roboto;
     font-size: 16px;
-    9 font-style: normal;
+    font-style: normal;
     font-weight: 500;
     padding: 12px 8px;
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    /*    background: #FFFBEB;*/
 }
 
 .nav__element_link {
@@ -57,6 +58,7 @@ a {
 }
 
 .nav__zagolovok {
+    display: inline-block;
     color: var(--Amber-900, #78350F);
     font-family: Roboto;
     font-size: 32px;
@@ -69,18 +71,18 @@ a {
 .section__sneakers {
     display: flex;
     padding: 80px;
-    align-items: center;
     gap: 80px;
+    /*align-items: stretch;
     align-self: stretch;
-    background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));
+    background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));*/
 }
 
 .section__sneakers_left {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
     align-items: flex-start;
-    gap: 32px;
-    align-self: stretch;
+    gap: 80px;
+    /*align-self: stretch;*/
 }
 
 .section__sneakers_left_head {
@@ -97,9 +99,7 @@ a {
 }
 
 .section__sneakers_left_text {
-    align-self: stretch;
     color: var(--Blue-Gray-900, #0F172A);
-
     /* Body/L */
     font-family: Roboto;
     font-size: 18px;
@@ -110,11 +110,34 @@ a {
 }
 
 .section__sneakers_right {
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
 }
 
 .section__sneakers_right_image {
     width: 486px;
-    height: 388px;
+    height: 786px;
     flex-shrink: 0;
+}
+
+.section__sneakers_left_ button {}
+
+.section__sneakers_left_button_image_watchdemo {
+    width: 24px;
+    height: 24px;
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20V20ZM16.126 13.746L12.071 16.644C11.166 17.29 9.941 17.033 9.334 16.068C9.11494 15.7171 8.99918 15.3116 9 14.898V9.102C9 7.942 9.883 7 10.972 7C11.363 7 11.746 7.124 12.071 7.356L16.126 10.254C17.031 10.901 17.272 12.206 16.666 13.171C16.5251 13.3959 16.3417 13.5913 16.126 13.746V13.746ZM10.972 9.102V14.898L15.027 12L10.972 9.102Z" fill="#78350F" /></svg>
+}
+
+.button_watchdemo {
+
+    color: var(--Amber-900, #78350F);
+
+    /* Button/M */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
 }

@@ -72,6 +72,7 @@ a {
     display: flex;
     padding: 80px;
     gap: 80px;
+    justify-content : space-between
     /*align-items: stretch;
     align-self: stretch;
     background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));*/
@@ -116,7 +117,7 @@ a {
 
 .section__sneakers_right_image {
     width: 486px;
-    height: 786px;
+    height: 388px;
     flex-shrink: 0;
 }
 
@@ -141,3 +142,4 @@ a {
     /* 150% */
     letter-spacing: 0.5px;
 }
+

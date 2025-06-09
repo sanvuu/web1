@@ -71,23 +71,24 @@ a {
 .section__sneakers {
     display: flex;
     padding: 80px;
+    align-items: center;
     gap: 80px;
-    justify-content : space-between
-    /*align-items: stretch;
+    justify-content: space-between;
     align-self: stretch;
-    background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));*/
+    background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));
+
 }
 
 .section__sneakers_left {
     display: flex;
-    flex-direction: column;*/
+    flex-direction: column;
     align-items: flex-start;
-    gap: 80px;
-    /*align-self: stretch;*/
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
 }
 
 .section__sneakers_left_head {
-    align-self: stretch;
     color: var(--Blue-Gray-900, #0F172A);
     /* Heading/1 M */
     font-family: Roboto;
@@ -111,17 +112,27 @@ a {
 }
 
 .section__sneakers_right {
-    /*display: flex;
-    flex-direction: row;*/
-}
-
-.section__sneakers_right_image {
+    display: flex;
     width: 486px;
     height: 388px;
     flex-shrink: 0;
 }
 
-.section__sneakers_left_ button {}
+.section__sneakers_right_image {
+    display: flex;
+    position: relative;
+    width: 486px;
+    height: 388px;
+    flex-shrink: 0;
+}
+
+.yellowback {
+    display: flex;
+    width: 367px;
+    height: 372px;
+    border-radius: 50px;
+    background: var(--Amber-400, #FBBF24);
+}
 
 .section__sneakers_left_button_image_watchdemo {
     width: 24px;
@@ -142,4 +153,3 @@ a {
     /* 150% */
     letter-spacing: 0.5px;
 }
-

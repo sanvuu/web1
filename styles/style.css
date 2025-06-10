@@ -112,22 +112,20 @@ a {
 }
 
 .section__sneakers_right {
-    display: flex;
     width: 486px;
     height: 388px;
     flex-shrink: 0;
 }
 
 .section__sneakers_right_image {
-    display: flex;
-    position: relative;
-    width: 486px;
-    height: 388px;
-    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+    position: absolute;
 }
 
 .yellowback {
-    display: flex;
     width: 367px;
     height: 372px;
     border-radius: 50px;

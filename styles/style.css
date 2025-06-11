@@ -73,9 +73,8 @@ a {
     align-items: center;
     gap: 80px;
     justify-content: space-between;
-    align-self: stretch;
+/*    align-self: stretch;*/
     background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));
-
 }
 
 .section__sneakers_left {

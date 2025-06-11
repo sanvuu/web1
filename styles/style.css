@@ -110,6 +110,8 @@ a {
 }
 
 .section__sneakers_right {
+    display: flex;
+    justify-content: center;
     width: 486px;
     height: 388px;
     flex-shrink: 0;
@@ -124,7 +126,7 @@ a {
 
 .section__sneakers_right_image {
     position: absolute;
-    margin-left: -55px;
+    margin-left: 5px;
     margin-top: -60px;
 }
 

@@ -15,19 +15,8 @@
         background: #FFF;
     }
 
-    .background__image {
-        width: 393px;
-        height: 324px;
-        position: absolute;
-        top: 545px;
-        fill: var(--Amber-100, #FEF3C7);
-    }
-
     .nav__spisok_elementov {
         display: none;
-        
-
-
 
     }
 }

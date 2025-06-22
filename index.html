@@ -14,10 +14,9 @@
 </head>
 
 <body>
-    <header>
-        <a href="/" class="nav__zagolovok nav__element_link">Collers</a>
-        <nav>
-            <ul class="nav__spisok_elementov">
+        <nav class="navbar">
+            <a href="/" class="nav__zagolovok nav__element_link">Collers</a>
+            <ul class="nav__links">
                 <li class="nav__element"><a href="#products" class="nav__element_link">Products</a></li>
                 <li class="nav__element"><a href="#solitions" class="nav__element_link">Solutions</a></li>
                 <li class="nav__element"><a href="#pricing" class="nav__element_link">Pricing</a></li>
@@ -28,8 +27,18 @@
                 <li class="nav__element"><a href="#signup" class="nav__element_link nav__element_border">Sign up now</a>
                 </li>
             </ul>
+            <div class="navmobile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" class="burger">
+                    <path d="M21 5.5H13" stroke="#78350F" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M21 12.5H8" stroke="#78350F" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M21 19.5H3" stroke="#78350F" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
         </nav>
-    </header>
+
     <section class="html__collectible">
         <section class="section__sneakers">
             <section class="section__sneakers_left">
@@ -122,7 +131,8 @@
             </div>
 
         </section>
-        <svg xmlns="http://www.w3.org/2000/svg" width="1428" height="806" viewBox="0 0 1428 806" fill="none" class="background__image">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1428" height="806" viewBox="0 0 1428 806" fill="none"
+            class="background__image">
             <path d="M1428 265.472V0L0 806H1428V265.472Z" fill="#FEF3C7" />
         </svg>
     </section>

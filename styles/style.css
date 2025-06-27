@@ -11,15 +11,25 @@ body {
     display: none;
 }
 
+.menu {
+    position: relative;
+    z-index: -10;
+
+}
+
 .background__image {
     position: absolute;
-    right: 0px;
-    top: 238px;
-    z-index: -1;
+    z-index: -10;
+    opacity: 0.5;
 }
 
 a {
     color: var(--Amber-900, #78350F);
+}
+
+.html__collectible {
+    position: relative;
+    z-index: 10;
 }
 
 .navbar {
@@ -93,6 +103,7 @@ a {
     justify-content: space-between;
     /*    align-self: stretch;*/
     background: var(--Linear-Gradient-Vertical-Amber-50-to-White, linear-gradient(180deg, #FFFBEB 0%, #FFF 89.63%));
+    position: relative;
     z-index: 10;
 }
 
@@ -177,6 +188,7 @@ a {
     align-items: center;
     gap: 80px;
     align-self: stretch;
+    position: relative;
     z-index: 10;
 }
 
@@ -331,23 +343,28 @@ a {
 @media (max-width: 768px) {
 
     .navbar {
+        margin: 0 auto;
         display: flex;
         justify-content: end;
     }
 
     .nav__links {
         display: none;
+        margin: 0 auto;
         list-style: none;
     }
 
     .navmobile {
+        margin: 0 auto;
         display: flex;
     }
 
     .menu {
         border: 0;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
+        position: relative;
+        z-index: -10px;
         /*display: flex;
         padding: 16px;
         justify-content: space-between;
@@ -355,15 +372,16 @@ a {
         align-self: stretch;*/
     }
 
-     .burger {
+    .burger {
+        margin: 0 auto;
         display: flex;
-
         width: 24px;
         height: 24px;
 
     }
 
     .section__sneakers {
+        margin: 0 auto;
         display: flex;
         padding: 48px 16px;
         flex-direction: column;
@@ -373,11 +391,6 @@ a {
         align-self: stretch;
     }
 
-    body {
-        /*display: flex;
-        
-        flex-direction: column;
-        align-items: flex-start;*/
-    }
+
 
 }
